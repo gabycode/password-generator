@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Shippori+Antique&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="top">
+            <h1>Generate a <span class="h1-color">random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <button class="generate-password" onclick="getPassword()">Generate password</button>
+        </div>
+
+        <div class="bottom">
+            <p id="password1" class="random-password-btn"></p>
+            <p id="password2" class="random-password-btn"></p>
+            <p id="password3" class="random-password-btn"></p>
+            <p id="password4" class="random-password-btn"></p>
+
+        </div>
+    </div>
 </body>
 </html>
