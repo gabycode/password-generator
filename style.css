@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #191c24;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #ecfdf5;
+}
