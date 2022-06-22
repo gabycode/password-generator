@@ -28,12 +28,13 @@ body {
 .h1-color {
   display: block;
   color: #10b981;
+  margin: 0;
 }
 
 .top p {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  margin: 0;
+  margin: .5em 0;
 }
 
 .generate-password {
@@ -44,7 +45,7 @@ body {
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
-  margin: 2rem 0;
+  margin: 1rem 0;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -57,7 +58,7 @@ body {
 .bottom {
   border-top: 1px solid #d5d4d8;
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   padding: 30px;
 }
 
@@ -71,4 +72,17 @@ body {
   font-family: "Poppins", sans-serif;
   height: 2.5rem;
   text-align: center;
+}
+
+@media (max-width:530px) {
+
+  .container {
+    width: 90%;
+    font-size: .85rem;
+  }
+
+  .top {
+    text-align: center;
+  }
+
 }
